@@ -1,0 +1,35 @@
+{
+  "name": "jsonfmt-cli",
+  "version": "1.0.0",
+  "description": "A fast, zero-dependency JSON formatter, validator, and transformer for the command line.",
+  "main": "index.js",
+  "bin": {
+    "jsonfmt": "./index.js"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "node test/run.js"
+  },
+  "keywords": [
+    "json",
+    "formatter",
+    "validator",
+    "cli",
+    "beautifier",
+    "minify",
+    "prettify"
+  ],
+  "author": "",
+  "license": "MIT",
+  "engines": {
+    "node": ">=14"
+  },
+  "homepage": "https://github.com/PLACEHOLDER/jsonfmt-cli",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/PLACEHOLDER/jsonfmt-cli.git"
+  },
+  "bugs": {
+    "url": "https://github.com/PLACEHOLDER/jsonfmt-cli/issues"
+  }
+}
